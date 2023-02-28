@@ -10,5 +10,7 @@ class MainActivity : AppCompatActivity() {
         installSplashScreen()
         setContentView(R.layout.activity_main)
 
+//        supportFragmentManager.beginTransaction()
+//            .replace(R.id.mainLayout, ProfileFragment.newInstance()).commit()
     }
 }
