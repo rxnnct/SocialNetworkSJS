@@ -8,17 +8,14 @@ import androidx.lifecycle.ViewModel
 
 class LoginViewModel : ViewModel() {
 
-    private val intentForRegister = MutableLiveData<Intent>()
+    private val intentForRegisterMutable = MutableLiveData<Intent>()
+    val intentForRegister: LiveData<Intent> = intentForRegisterMutable
 
     fun register() {
         val url = REGISTER_PAGE_URL
         val intent = Intent(Intent.ACTION_VIEW)
         intent.data = Uri.parse(url)
-        intentForRegister.value = intent
-    }
-
-    fun getIntentForRegister(): LiveData<Intent>{
-        return intentForRegister
+        intentForRegisterMutable.value = intent
     }
 
 //    fun logIn(login: String, password: String) {

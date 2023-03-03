@@ -24,7 +24,7 @@ class LoginFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        viewModel.getIntentForRegister().observe(viewLifecycleOwner) {
+        viewModel.intentForRegister.observe(viewLifecycleOwner) {
             startActivity(it)
         }
 
