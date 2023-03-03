@@ -24,9 +24,13 @@ class LoginFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
+        viewModel.intentForRegister.observe(viewLifecycleOwner) {
+            startActivity(it)
+        }
+
         val registerButton = binding.bRegister
         registerButton.setOnClickListener {
-            startActivity(viewModel.getIntentForRegister())
+            viewModel.getIntentForRegister()
         }
     }
 
