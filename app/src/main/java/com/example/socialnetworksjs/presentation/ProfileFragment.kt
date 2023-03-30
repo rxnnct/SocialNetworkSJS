@@ -1,4 +1,4 @@
-package com.example.socialnetworksjs.view
+package com.example.socialnetworksjs.presentation
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -27,14 +27,14 @@ class ProfileFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         // TODO: remove
-        val controller = findNavController()
+        val navController = findNavController()
         if (!isLogged) {
-            controller.navigate(R.id.loginFragment)
+            navController.navigate(R.id.loginFragment)
         }
     }
 
-    companion object {
-        @JvmStatic
-        fun newInstance() = ProfileFragment()
-    }
+//    companion object {
+//        @JvmStatic
+//        fun newInstance() = ProfileFragment()
+//    }
 }

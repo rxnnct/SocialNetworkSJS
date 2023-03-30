@@ -1,4 +1,4 @@
-package com.example.socialnetworksjs.view
+package com.example.socialnetworksjs.presentation
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -34,8 +34,8 @@ class LoginFragment : Fragment() {
         }
     }
 
-    companion object {
-        @JvmStatic
-        fun newInstance() = LoginFragment()
-    }
+//    companion object {
+//        @JvmStatic
+//        fun newInstance() = LoginFragment()
+//    }
 }
