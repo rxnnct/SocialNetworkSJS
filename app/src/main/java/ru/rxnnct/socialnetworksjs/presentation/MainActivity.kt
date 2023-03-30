@@ -1,4 +1,4 @@
-package ru.rxnnct.socialnetworksjs
+package ru.rxnnct.socialnetworksjs.presentation
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

@@ -1,4 +1,4 @@
-package ru.rxnnct.socialnetworksjs.presentation
+package ru.rxnnct.socialnetworksjs.presentation.fragment
 
 import android.content.Intent
 import android.net.Uri

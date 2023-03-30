@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/profileFragment"
-        android:name="ru.rxnnct.socialnetworksjs.presentation.ProfileFragment"
+        android:name="ru.rxnnct.socialnetworksjs.presentation.fragment.ProfileFragment"
         android:label="fragment_profile"
         tools:layout="@layout/fragment_profile" >
         <action
@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/loginFragment"
-        android:name="ru.rxnnct.socialnetworksjs.presentation.LoginFragment"
+        android:name="ru.rxnnct.socialnetworksjs.presentation.fragment.LoginFragment"
         android:label="fragment_login"
         tools:layout="@layout/fragment_login" >
         <action
