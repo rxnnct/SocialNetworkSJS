@@ -1,4 +1,4 @@
-package com.example.socialnetworksjs
+package ru.rxnnct.socialnetworksjs
 
 import android.app.Application
 

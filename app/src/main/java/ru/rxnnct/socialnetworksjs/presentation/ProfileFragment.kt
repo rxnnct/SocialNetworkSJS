@@ -1,4 +1,4 @@
-package com.example.socialnetworksjs.presentation
+package ru.rxnnct.socialnetworksjs.presentation
 
 import android.os.Bundle
 import android.view.LayoutInflater
